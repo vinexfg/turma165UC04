@@ -39,5 +39,5 @@ const soma5 = Number((number1 + number2) /2)
 //questoa06
 const number9 = Number(prompt(' DIgitie seu numero'))
 const number10 = Number(prompt(' DIgitie seu numero'))
-const soma5 = Number((number1 + number2) /2)
+const soma5 = Number((number1 + number2) /2)a
 
