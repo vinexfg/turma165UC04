@@ -14,7 +14,7 @@ export default class Usuario {
   }
 
   reproduzir(){
-    console.log(     `
+    console.log(`
         ${this.nome }
         ${this.idade }
         ${this.genero }
