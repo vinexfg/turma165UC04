@@ -2,8 +2,9 @@
 
 
 export default class Usuario {
+  #nome
   constructor(nome, idade, genero, telefone, email, cpf, cep, rg) {
-    this.nome = nome;
+    this.#nome = nome;
     this.idade = idade;
     this.genero = genero;
     this.telefone = telefone;
@@ -11,6 +12,10 @@ export default class Usuario {
     this.cpf = cpf;
     this.cep = cep;
     this.rg = rg;
+    Object.freeze(this)
+  }
+  get getNome(){
+    return this.#nome; 
   }
 
   reproduzir(){
