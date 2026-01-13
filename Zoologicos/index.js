@@ -7,7 +7,7 @@ const papagaio = new Ave("Papagaio", 2, "Curvo", "Alta");
 const papagaio1 = new Papagaio("Loro", 3, "Curvo", "Alta", []);
 
 
-leao.emitirSom();
+// leao.emitirSom();
 
 console.log(papagaio.getInfo());
 papagaio.emitirSom();
